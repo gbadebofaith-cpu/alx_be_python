@@ -1,3 +1,3 @@
 hours = 2
-seconds = 7200
-print(hours, "hour(s) is", seconds, "seconds")
+seconds = hours * 3600
+print(hours,"hours is",seconds, "seconds")
