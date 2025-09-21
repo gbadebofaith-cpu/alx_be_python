@@ -13,7 +13,7 @@ match priority:
                   " is a high priority task. Consider completing it when you have free time.")
 
     case "medium":
-        if time_bound == "yes":
+        if time_bound:
             print("Reminder: ", "'" + task + "'",
                   " is a medium priority task that requires immediate attention today!")
         else:
